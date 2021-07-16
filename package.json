@@ -2,7 +2,7 @@
   "name": "ll.db",
   "version": "0.0.1",
   "description": "A light and local database.",
-  "main": "ll.db.js",
+  "main": "src/Database/ll.db.js",
   "scripts": {
     "test": "node test"
   },
