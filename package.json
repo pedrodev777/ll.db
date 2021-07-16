@@ -1,0 +1,19 @@
+{
+  "name": "ll.db",
+  "version": "0.0.1",
+  "description": "A light and local database.",
+  "main": "ll.db.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrodev777/ll.db.git"
+  },
+  "author": "pedrodev777",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pedrodev777/ll.db/issues"
+  },
+  "homepage": "https://github.com/pedrodev777/ll.db#readme"
+}
