@@ -23,7 +23,9 @@ Database.init = function init(...args) {
   var [name = GenerateRandomString({length:10})] = args;
   
   for(var key in Database.init.prototype) {
-    this[key] = Database.init.prototype[key];
+    Object.defineProperty(this, key, {
+      value: Database.init.prototype[key]
+    });
   }
   
   this.name = resolveName(name);
